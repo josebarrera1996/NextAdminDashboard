@@ -38,12 +38,10 @@ const UsersPage = () => {
                         <td>active</td>
                         <td>
                             <div className={styles.buttons}>
-                                <Link href='/'>
+                                <Link href='/dashboard/users/test'>
                                     <button className={`${styles.button} ${styles.view}`}>View</button>
                                 </Link>
-                                <Link href='/'>
-                                    <button className={`${styles.button} ${styles.delete}`}>Delete</button>
-                                </Link>
+                                <button className={`${styles.button} ${styles.delete}`}>Delete</button>
                             </div>
                         </td>
                     </tr>
