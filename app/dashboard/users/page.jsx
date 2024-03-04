@@ -5,8 +5,9 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { fetchUsers } from '@/app/lib/data';
 
-const UsersPage = async () => {
-    const users = await fetchUsers()
+const UsersPage = async ({ searchParams }) => {
+    const q = searchParams?.q || ""
+    const users = await fetchUsers(q)
     // console.log(users)
 
     return (
