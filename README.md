@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Dashboard de Administración - Next.js 14, MongoDB & next-auth
+-------------------------------------------------------------
 
-## Getting Started
+**¡Toma el control de tu aplicación con este potente Dashboard para administradores!**
 
-First, run the development server:
+**Funcionalidades:**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+*   **Inicio de sesión seguro:** Autenticación robusta para proteger tu aplicación.
+    
+*   **Gestión de usuarios:** Crea, edita y elimina usuarios con facilidad.
+    
+*   **Control total de productos:** Agrega, modifica y elimina productos sin esfuerzo.
+    
+*   **Interfaz intuitiva:** Panel de control claro y organizado para una gestión eficiente.
+    
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Tecnologías:**
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+*   **Next.js 14:** Framework moderno para aplicaciones web de alto rendimiento.
+    
+*   **MongoDB:** Base de datos NoSQL flexible y escalable.
+    
+*   **next-auth:** Solución robusta para la autenticación de usuarios.
+    
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+**Secciones con imágenes:**
 
-## Learn More
+1.  **Inicio de sesión:** Accede al Dashboard con seguridad y confianza.
 
-To learn more about Next.js, take a look at the following resources:
+![Login](https://imgbb.host/images/anHfB.png)
+    
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2.  **Dashboard:** Vista general del sistema con información clave y accesos rápidos.
+    
+![Dashboard](https://imgbb.host/images/anGAK.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+3.  **Usuarios:** Administra a los usuarios del sistema de forma completa.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Usuarios](https://imgbb.host/images/an7Hr.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+4.  **Productos:** Gestiona el catálogo de productos con imágenes, descripciones y precios.
+    
+![Productos](https://imgbb.host/images/an6le.png)
+
+
+**Configuración:**
+
+1.  **Clonar el repositorio:** git clone https://github.com/josebarrera1996/NextAdminDashboard
+    
+2.  **Instalar dependencias:** npm install
+    
+3.  **Crear archivo .env:** Copia el archivo .example.env y configura las variables de entorno.
+    
+4.  **Iniciar aplicación:** npm run dev
+    
+
+**Soporte:**
+
+*   **Documentación de Next.js:** [https://nextjs.org/docs](https://nextjs.org/docs)
+    
+*   **Documentación de MongoDB:** [https://www.mongodb.com/docs/](https://www.mongodb.com/docs/)
+    
+*   **Documentación de next-auth:** [https://next-auth.js.org/](https://next-auth.js.org/)
